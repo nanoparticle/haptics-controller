@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "haptics"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pyserial = "^3.5"
+numpy = "^1.25.0"
+vectormath = "^0.2.2"
+scipy = "^1.11.1"
+pyqtgraph = "^0.13.3"
+pyqt5 = "^5.15.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
